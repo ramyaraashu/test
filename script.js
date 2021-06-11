@@ -73,23 +73,3 @@ $(document).ready(function(){
      
 });
 
-// // for data sending
-// const form = document.querySelector('#myForm')
-// let name=$('.fullname').val();
-// let email=$('.email_input').val();
-// let subject=$('.subject').val();
-// let message=$('.message').val();
-// const data= {
-//     fullname:name,
-//     clinetemail:email,
-//     clientsubject:subject,
-//     clientmessage:message
-// }
-// form.submit(function (e){
-// e.preventDefault();
-// let datas = new FormData(e.target)
-// console.log(datas);
-// console.log(data);
-// // fetch('https://formspree.io/f/mrgrqvbe',{method:'POST',body:data})
-// // form.reset();
-// })
