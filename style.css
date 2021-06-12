@@ -227,7 +227,8 @@ section .title::after{
     height: 400px;
     width: 400px;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 50px;
+    /* clip-path: circle(50%); */
 }
 .about .about-content .right{
     width: 55%;
